@@ -1,0 +1,26 @@
+{
+  "name": "laundry-financial-backend",
+  "version": "1.0.0",
+  "description": "Backend part of Omah Laundry Monthly Financial Report",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/www",
+    "dev": "nodemon -q bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad Nur Fadli",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.28.0",
+    "sequelize-cli": "^6.5.2"
+  }
+}
